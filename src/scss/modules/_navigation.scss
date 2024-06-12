@@ -3,21 +3,50 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  z-index: 2;
+  background-color: #26231d22;
 
   img {
-    width: 55px;
-    height: 87px;
+    height: 60px;
   }
 }
 
 .navigation-links {
+  font-size: 16px;
+  font-weight: 300;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 50vw;
+  text-transform: capitalize;
+
+  :nth-child(1) {
+    color: var(--yellow);
+  }
+  :nth-child(2) {
+    color: var(--light-red);
+  }
+  :nth-child(3) {
+    color: var(--dark-red);
+  }
+  :nth-child(4) {
+    color: var(--light-pink);
+  }
+  :nth-child(5) {
+    color: var(--light-blue);
+  }
 }
 
 .navigation-icons {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 800;
+  span {
+    text-decoration-line: underline;
+  }
   display: flex;
   justify-content: space-between;
   align-items: center;

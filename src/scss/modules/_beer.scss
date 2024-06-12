@@ -1,5 +1,8 @@
 .beer {
+  height: 80vh;
+  padding-top: 60px;
   h2 {
+    padding: 10px;
     color: var(--black);
     font-family: "all-round-gothic", sans-serif;
     font-size: 64px;
@@ -20,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
   div {
     background-color: var(--black);
     width: 9px;
@@ -30,6 +34,7 @@
 }
 
 .beer-mockup {
+  padding-bottom: 30px;
   div {
     background-color: var(--black);
     margin: 10px;

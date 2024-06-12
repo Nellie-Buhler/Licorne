@@ -1,6 +1,9 @@
 .restorant {
+  height: 378px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 150px;
 
   h2 {
     color: var(--white, #fff7e7);
