@@ -1,0 +1,11 @@
+.button-w {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  font-family: "all-round-gothic", sans-serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: 2px solid var(--gradient, #efc24c);
+}

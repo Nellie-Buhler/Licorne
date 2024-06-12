@@ -10,3 +10,21 @@
 .l-brewery-bg {
   background-color: var(--black);
 }
+
+.l-restorant-bg {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.27) 0%,
+      rgba(0, 0, 0, 0.27) 100%
+    ),
+    url("../img/bg-restorant.jpg");
+}
+
+.l-footer-bg {
+  background-color: var(--black);
+}
+
+.l-footer-line {
+  background-color: var(--white);
+  height: 1px;
+}
