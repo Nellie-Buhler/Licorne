@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 55px;
+    height: 87px;
+  }
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+
+.navigation-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10vw;
+}

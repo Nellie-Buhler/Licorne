@@ -1,0 +1,50 @@
+.brewery {
+  color: var(--white);
+
+  h2 {
+    font-family: "all-round-gothic", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+}
+
+.brewery-story {
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+}
+
+.brewery-value {
+  p {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  strong {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+
+.brewery-value-txt :nth-child(1) {
+  color: var(--yellow);
+}
+
+.brewery-value-txt :nth-child(2) {
+  color: var(--dark-red);
+}
+
+.brewery-value-txt :nth-child(3) {
+  color: var(--light-blue);
+}
+
+.brewery-value-txt :nth-child(4) {
+  color: var(--light-green);
+}
+
+.brewery-value-txt :nth-child(5) {
+  color: var(--light-pink);
+}
