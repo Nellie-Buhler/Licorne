@@ -1,6 +1,7 @@
 .beer {
   height: 80vh;
-  padding-top: 60px;
+  margin-top: 100px;
+  margin-bottom: 20px;
   h2 {
     padding: 10px;
     color: var(--black);
@@ -34,9 +35,12 @@
 }
 
 .beer-mockup {
-  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin: 0px 60px;
   div {
     background-color: var(--black);
-    margin: 10px;
+    margin: 20px;
   }
 }

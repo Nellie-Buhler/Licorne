@@ -1,7 +1,8 @@
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   color: var(--white);
+  padding: 20px 0px;
   .img {
     width: 204px;
     height: 204px;
@@ -16,25 +17,78 @@
 .footer-contact {
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30px;
+  height: 204px;
+
+  h4 {
+    font-weight: 800;
+
+    :nth-child(1) {
+      color: var(--yellow);
+    }
+    :nth-child(2) {
+      color: var(--light-red);
+    }
+    :nth-child(3) {
+      color: var(--dark-red);
+    }
+    :nth-child(4) {
+      color: var(--dark-pink);
+    }
+    :nth-child(5) {
+      color: var(--dark-blue);
+    }
+    :nth-child(6) {
+      color: var(--light-green);
+    }
+    :nth-child(7) {
+      color: var(--dark-green);
+    }
+  }
+  p {
+    line-height: 25px;
+  }
+  i {
+    font-size: 25px;
+    // margin-top: 10px;
+  }
 }
 
 .footer-newsletter {
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .footer-newsletter-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  .radio {
+  input {
+    padding: 10px 25px;
     background-color: var(--white);
+    color: var(--black, #26231d);
+    font-size: 16px;
+    border: none;
   }
 }
 
+::placeholder {
+  // color: red;
+  text-decoration: solid;
+  text-decoration-line: underline;
+}
+
 .footer-mentions {
+  padding-top: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
