@@ -1,13 +1,21 @@
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   width: 100vw;
   top: 0px;
   z-index: 2;
-  background-color: #26231d22;
+  background-color: #26231dc8;
+  backdrop-filter: blur(10px);
+
+  .navigation-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 10px;
+  }
 
   img {
     height: 60px;
@@ -15,7 +23,7 @@
 }
 
 .navigation-links {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   display: flex;
   justify-content: space-between;
@@ -42,13 +50,13 @@
 
 .navigation-icons {
   color: var(--white);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
-  span {
-    text-decoration-line: underline;
-  }
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 10vw;
+  span {
+    text-decoration-line: underline;
+  }
 }

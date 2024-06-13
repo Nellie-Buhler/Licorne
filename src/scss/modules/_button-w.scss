@@ -1,11 +1,36 @@
+.button-w-wrapper {
+  background: conic-gradient(
+    from 179deg at 45.98% 56.48%,
+    #efc24c 17deg,
+    #e99b59 45deg,
+    #df6544 90deg,
+    #e471a8 135deg,
+    #c04a84 180deg,
+    #a6d2d3 225deg,
+    #588da2 270deg,
+    #927f28 323deg,
+    #baaa41 332deg,
+    #dec736 360deg
+  );
+
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1rem;
+  padding: 2.5px;
+}
+
 .button-w {
-  display: flex;
   padding: 10px 25px;
-  justify-content: center;
-  align-items: center;
-  color: var(--black);
+  background-color: var(--white);
   font-family: "all-round-gothic", sans-serif;
   font-size: 20px;
   text-transform: capitalize;
-  border: 2px solid var(--gradient, #efc24c);
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.button-w:hover {
+  color: var(--white);
+  background-color: var(--black);
 }
