@@ -16,10 +16,42 @@
 
   filter: blur(7.5px);
   height: 100vh;
-  z-index: -1;
+  z-index: -3;
   position: relative;
   top: -90px;
   left: 10px;
+}
+
+.l-text-bg-header {
+  background-image: url("../img/text-bg-header.svg");
+  height: 70vh;
+  width: 200vw;
+  z-index: -2;
+  position: absolute;
+  top: 115px;
+  left: -666px;
+  opacity: 0.85;
+  mix-blend-mode: hard-light;
+  background-size: 128%;
+}
+
+.l-header-filter {
+  z-index: -1;
+  position: absolute;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.14) 10%, rgba(0, 0, 0, 0) 30.5%),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 56%,
+      rgba(255, 255, 255, 0.15) 100%
+    );
+  filter: blur(7px);
+  height: 100vh;
+  width: 100vw;
 }
 
 .l-mascot-black {
@@ -37,9 +69,71 @@
   z-index: 2;
 }
 
+.l-rainbow-decoration {
+  position: absolute;
+  // top: 963px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  .l-rainbow-item-l {
+    display: flex;
+    margin-left: 20px;
+
+    :nth-child(1) {
+      width: 35px;
+      height: 241px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--yellow, #efc24c);
+    }
+    :nth-child(2) {
+      width: 35px;
+      height: 356px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--light-red, #e99b59);
+    }
+    :nth-child(3) {
+      width: 35px;
+      height: 187px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--dark-red, #df6544);
+    }
+  }
+
+  .l-rainbow-items-r {
+    display: flex;
+    margin-right: 20px;
+
+    :nth-child(1) {
+      width: 35px;
+      height: 250px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--dark-pink, #c04a84);
+    }
+    :nth-child(2) {
+      width: 35px;
+      height: 356px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--dark-blue, #588da2);
+    }
+    :nth-child(3) {
+      width: 35px;
+      height: 151px;
+      margin: 0px 15px;
+      border-radius: 0px 0px 30px 30px;
+      background: var(--dark-green, #927f28);
+    }
+  }
+}
+
 .l-brewery-bg {
   background-color: var(--black);
   height: 115vh;
+  z-index: -2;
 }
 
 .l-restorant-bg {
