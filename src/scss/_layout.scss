@@ -15,6 +15,7 @@
   background-size: cover;
 
   filter: blur(7.5px);
+  width: 100vw;
   height: 100vh;
   z-index: -3;
   position: relative;
@@ -25,14 +26,13 @@
 .l-text-bg-header {
   background-image: url("../img/text-bg-header.svg");
   height: 70vh;
-  width: 200vw;
+  width: 100vw;
   z-index: -2;
   position: absolute;
   top: 115px;
-  left: -666px;
   opacity: 0.85;
   mix-blend-mode: hard-light;
-  background-size: 128%;
+  background-size: 150%;
 }
 
 .l-header-filter {
@@ -134,6 +134,12 @@
   background-color: var(--black);
   height: 115vh;
   z-index: -2;
+}
+
+.l-beer-bg {
+  background-color: var(--black);
+  width: 20vw;
+  height: 20vh;
 }
 
 .l-restorant-bg {
