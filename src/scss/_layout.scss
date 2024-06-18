@@ -132,17 +132,19 @@
 
 .l-brewery-bg {
   background-color: var(--black);
-  z-index: -2;
 }
 
 .l-beer-bg {
+  display: flex;
   background-color: var(--black);
   height: 28vw;
   width: 28vw;
-  position: relative;
-  top: -28vw;
-  z-index: -1;
-  transition: width 0.3s ease-in;
+}
+
+.l-beer-bg {
+  .beer-txt {
+    opacity: 1;
+  }
 }
 
 .l-restorant-bg {
