@@ -1,7 +1,5 @@
 .beer {
-  height: 80vh;
   margin-top: 100px;
-  margin-bottom: 20px;
   h2 {
     padding: 10px;
     color: var(--black);
@@ -40,56 +38,59 @@
   padding-bottom: 10px;
   margin: 0px 60px;
   .beer-mockup {
-    display: flex;
-    justify-content: center;
-    background-color: var(--black);
     margin: 20px;
     height: 28vw;
     width: 28vw;
+    transition: width 0.3s ease-in;
+    background-color: var(--black);
   }
-  // .beer-txt {
-  //   display: flex;
-  //   flex-direction: column;
-  //   position: absolute;
-  //   align-items: flex-end;
-  //   :nth-child(1) {
-  //     color: var(--yellow, #efc24c);
-  //     font-size: 25px;
-  //     font-weight: 800;
-  //     display: none;
-  //   }
-  //   :nth-child(2) {
-  //     color: var(--dark-red, #df6544);
-  //     font-size: 22px;
-  //     font-weight: 300;
-  //     display: none;
-  //   }
-  // }
 
-  // .beer-icon {
-  //   position: absolute;
-  //   bottom: -1756px;
-  //   left: 405px;
-  //   font-size: 22px;
-  //   display: none;
-  //   color: var(--white);
-  // }
+  .beer-txt {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+    :nth-child(1) {
+      color: var(--yellow, #efc24c);
+      font-size: 25px;
+      font-weight: 800;
+      // display: none;
+    }
+    :nth-child(2) {
+      color: var(--dark-red, #df6544);
+      font-size: 22px;
+      font-weight: 300;
+      // display: none;
+    }
+  }
+
+  .beer-icon {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: -1756px;
+    left: 405px;
+    font-size: 22px;
+    // display: none;
+    color: var(--white);
+  }
 }
 
-.beer-mockup:hover {
-  width: 80vw;
-  position: absolute;
+// .beer-mockup:hover {
+//   z-index: 1;
+//   width: 80vw;
+//   position: absolute;
 
-  // .beer-txt {
-  //   :nth-child(1) {
-  //     display: block;
-  //   }
-  //   :nth-child(2) {
-  //     display: block;
-  //   }
-  // }
+//   .beer-txt {
+//     :nth-child(1) {
+//       display: block;
+//     }
+//     :nth-child(2) {
+//       display: block;
+//     }
+//   }
 
-  // .beer-icon {
-  //   display: block;
-  // }
-}
+//   .beer-icon {
+//     display: block;
+//   }
+// }

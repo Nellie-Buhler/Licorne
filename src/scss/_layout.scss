@@ -58,7 +58,7 @@
   width: 158px;
   height: 253px;
   position: absolute;
-  top: 785px;
+  top: 80vh;
   left: 45vw;
 }
 
@@ -81,21 +81,21 @@
 
     :nth-child(1) {
       width: 35px;
-      height: 241px;
+      height: 271px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--yellow, #efc24c);
     }
     :nth-child(2) {
       width: 35px;
-      height: 356px;
+      height: 386px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--light-red, #e99b59);
     }
     :nth-child(3) {
       width: 35px;
-      height: 187px;
+      height: 207px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--dark-red, #df6544);
@@ -108,21 +108,21 @@
 
     :nth-child(1) {
       width: 35px;
-      height: 250px;
+      height: 280px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--dark-pink, #c04a84);
     }
     :nth-child(2) {
       width: 35px;
-      height: 356px;
+      height: 386px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--dark-blue, #588da2);
     }
     :nth-child(3) {
       width: 35px;
-      height: 151px;
+      height: 181px;
       margin: 0px 15px;
       border-radius: 0px 0px 30px 30px;
       background: var(--dark-green, #927f28);
@@ -132,14 +132,17 @@
 
 .l-brewery-bg {
   background-color: var(--black);
-  height: 115vh;
   z-index: -2;
 }
 
 .l-beer-bg {
   background-color: var(--black);
-  width: 20vw;
-  height: 20vh;
+  height: 28vw;
+  width: 28vw;
+  position: relative;
+  top: -28vw;
+  z-index: -1;
+  transition: width 0.3s ease-in;
 }
 
 .l-restorant-bg {
@@ -153,7 +156,6 @@
 
 .l-footer-bg {
   background-color: var(--black);
-  height: 35vh;
 }
 
 .l-footer-line {
