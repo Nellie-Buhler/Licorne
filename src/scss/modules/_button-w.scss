@@ -38,3 +38,19 @@
   color: var(--white);
   background-color: var(--black);
 }
+
+.button-w:active {
+  background: conic-gradient(
+    from 179deg at 45.98% 56.48%,
+    #efc24c 17.1554933488369deg,
+    #e99b59 45deg,
+    #df6544 90deg,
+    #e471a8 135deg,
+    #c04a84 180deg,
+    #a6d2d3 225deg,
+    #588da2 270deg,
+    #927f28 323.99999141693115deg,
+    #baaa41 352.8000068664551deg,
+    #e3d340 360deg
+  );
+}

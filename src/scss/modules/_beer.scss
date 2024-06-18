@@ -35,7 +35,7 @@
 .beer-mockup-container {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   margin: 0px 60px;
 
   .beer-mockup {
@@ -45,20 +45,16 @@
     height: 25vw;
     width: 25vw;
     transition: width 0.3s ease-in;
-    // background-color: var(--black);
-
-    img {
-      height: 28vw;
-    }
   }
 
   .beer-info {
+    opacity: 0;
     display: flex;
     height: 25vw;
     width: 25vw;
     position: absolute;
+    transition: opacity 0.3s ease-in;
     .beer-txt {
-      opacity: 0;
       width: 12.5vw;
       display: flex;
       flex-direction: column;
@@ -75,7 +71,6 @@
     }
 
     .beer-icon {
-      opacity: 0;
       width: 12.5vw;
       display: flex;
       justify-content: flex-end;

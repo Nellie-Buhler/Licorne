@@ -71,7 +71,6 @@
 
 .l-rainbow-decoration {
   position: absolute;
-  // top: 963px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -141,10 +140,8 @@
   width: 28vw;
 }
 
-.l-beer-bg {
-  .beer-txt {
-    opacity: 1;
-  }
+.l-beer-bg:hover .beer-info {
+  opacity: 1;
 }
 
 .l-restorant-bg {

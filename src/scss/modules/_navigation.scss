@@ -35,6 +35,11 @@
   width: 50vw;
   text-transform: capitalize;
 
+  p {
+    transition: filter 0.2s ease-in;
+    filter: grayscale(40%);
+  }
+
   :nth-child(1) {
     color: var(--yellow);
   }
@@ -52,6 +57,12 @@
   }
 }
 
+.navigation-links p:hover {
+  filter: grayscale(0%);
+  text-decoration: underline;
+  // transform: scale(105%);
+}
+
 .navigation-icons {
   color: var(--white);
   font-size: 22px;
@@ -64,3 +75,13 @@
     text-decoration-line: underline;
   }
 }
+
+// .navigation-icons i:hover {
+//   color: #c1b9aa;
+//   transform: scale(110%);
+// }
+
+// .navigation-icons span:hover {
+//   color: #c1b9aa;
+//   transform: scale(110%);
+// }
